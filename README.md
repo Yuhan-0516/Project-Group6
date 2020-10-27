@@ -80,7 +80,7 @@ Carbon emissions data has 60 rows
 ***Christopher***
 
 ***Where did you download the data (e.g., a web URL)?***
-- [WorldBank Data](https://data.worldbank.org/indicator/EG.USE.ELEC.KH.PC?name_desc=false)
+- [WorldBank Electrical Power Consumption Data](https://data.worldbank.org/indicator/EG.USE.ELEC.KH.PC?name_desc=false)
 - [Our World in Data](https://ourworldindata.org/energy#how-much-energy-does-the-world-consume)
 - [IEA Dataset](https://www.iea.org/data-and-statistics/data-tables?country=WORLD)
 
@@ -142,12 +142,41 @@ The five main features of the data above is:
 
 ***Wentao***
 
-Where did you download the data (e.g., a web URL)?
+***Where did you download the data (e.g., a web URL)?***
 
-How was the data collected or generated?
+- [Github project Data](https://github.com/owid/co2-data)
+- [WorldBank GDP Data](https://data.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG)
+- [WorldBank Country Information ](https://data.worldbank.org/country)
 
-Make sure to explain who collected the data (not necessarily the same people that host the data), and who or what the data is about?
+***How was the data collected or generated?***
+- The CO2 data comes from the Global Carbon Project and the Carbon Dioxide Information Analysis Center (CDIAC). Data until the year 1959 is taken from CDIAC; data from 1959 onwards is sourced from the Global Carbon Project. The Global Carbon Project typically releases a new update of CO2 emissions annually.
+- The data of gdp comes from the data of the national statistical survey. After comparing the gdp data of last year to generate the gdp growth rate, the data also needs to take inflation into consideration.
 
-How many observations (rows) are in your data? How many features (columns) are in the data?
 
-What questions (from above) can be answered using the data in this dataset?
+***Make sure to explain who collected the data (not necessarily the same people that host the data), and who or what the data is about?***
+
+- The Global Carbon Project and CDIAC collected the data.
+- The CO2 data is about CO2 information and GDP information in different countries and different years.
+- World Bank national accounts data, and OECD National Accounts data files.
+- The GDP per capita growth from different countries and different years.
+
+
+***How many observations (rows) are in your data?***
+
+- The CO2 data has 24016 rows.
+- The GDP per capita growth - high income data has 265 rows.
+- CO2 emissions - High income data has 265 rows.
+
+***How many features (columns) are in the data***
+
+- The CO2 data has 38 columns, including CO2_growth_prc, consumption_CO2, CO2_pre_GDP. Etc.
+- The GDP per capita Growth - high income data has 66 columns.
+- CO2 emissions - High income data has 66 rows.
+
+
+***What questions (from above) can be answered using the data in this dataset?***
+- The relationship between the developed country’s carbon emissions and the economy.
+- The gap in carbon emissions per GDP between developed and developing countries.
+The relationship between GDP growth and carbon emissions in different types of countries
+- Carbon emissions in different types of countries
+- The GDP per capita growth data is about GDP per capita growth in high income countries and different years.
