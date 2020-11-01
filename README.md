@@ -15,11 +15,11 @@ Therefore, we hope we can conduct a comprehensive analysis of the population, GD
 
 ***What other examples of data driven project have you found related to this domain (share at least 3)?***
 
-1. Monitoring Energy Consumption and the Dynamics of Water Bodies at Global Scale using Remote Sensing Data: Opportunities, Challenges and New Research Directions
+1. [Monitoring Energy Consumption and the Dynamics of Water Bodies at Global Scale using Remote Sensing Data: Opportunities, Challenges and New Research Directions](https://www.mdpi.com/2072-4292/12/7/1130/htm)
 
-2. Monitoring Rainfall Data and precipitation to predict animal seasonal migration patterns related to climate change.
+2. [Monitoring Rainfall Data and precipitation to predict animal seasonal migration patterns related to climate change.](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0202814)
 
-3. The effectiveness of Deep Learning algorithms in energy cost reduction.
+3. [The effectiveness of Deep Learning algorithms in energy cost reduction.](https://www.researchgate.net/publication/297253757_Deep_Learning_For_Estimating_Building_Energy_Consumption)
 
 ***What data-driven questions do you hope to answer about this domain (share at least 3)?***
 
